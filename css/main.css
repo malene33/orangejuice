@@ -1,3 +1,788 @@
-h1 {
-  color: red;
+/* Body Section*/
+
+
+
+body {
+  height: 100px;
+  width: 100%;
+  margin: none;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+font-family: 'Yantramanav', sans-serif;
+font-weight: 500;
+}
+
+
+
+/*  Nav Bar Section*/
+
+
+.top {
+
+  background:#FE7E00;
+  height: 100px;
+  border-bottom: 10px solid #F17003;
+  text-align: auto;
+  color: white;
+}
+
+.top img {
+  height: 75px;
+  width: 75px;
+  margin-top: 20px;
+  margin-left: -320px;
+}
+
+
+.logo {
+  margin-top: 20px;
+  color: #fff;
+  float: left;
+  margin-left: 200px;
+  font-weight: 5;
+  font-size: 40px;
+}
+
+ .logo > span {
+  font-weight: 900;
+}
+
+
+.top ul{
+margin: 0px;
+  display: inline-block;
+  margin-right: 100px;
+font-weight: bold;
+}
+
+ul {
+  float: right;
+text-align: inherit;
+margin:0px 0 0 50%;
+font-weight: bold;
+text-decoration: none;
+}
+
+
+li {
+  margin-top: 20px;
+  margin-right: 10px;
+  text-align: right;
+  display: inline-block;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+
+/*Section Div*/
+
+
+
+
+section {
+  background: white;
+  height: 515%;
+}
+
+
+section > img {
+margin-left: 70px;
+margin-top: -40px;
+float: left;
+height: 400px;
+width: 400px;
+}
+
+  /* Search Bar*/
+
+
+
+
+.sbox ul li {
+display: inline-block;
+float: left;
+}
+
+  input {
+height: 50px;
+width: 215px;
+background: #f0f0f0;
+float: right;
+margin-top: 5px;
+margin-right: 90px;
+padding-left: 5px;
+font-size: 20px;
+font-family: 'Yantramanav', sans-serif;
+color: #C0C0C2;
+border: none;
+}
+
+  .sbox button {
+margin-left: -146px;
+margin-top: -2px;
+text-decoration: none;
+padding: -5px;
+border: none;
+background: transparent;
+  }
+
+
+  .sbox i {
+    /*margin-left: -100px;*/
+    height: 37px;
+    width: 47px;
+    background: #f0f0f0;
+    color: #C0C0C2;
+    text-align: center;
+    float: right;
+    margin-right: 2px;
+    margin-top: 5px;
+    padding-top: 15px;
+    border: none;
+
+  }
+
+
+
+/* Section Right*/
+
+
+
+.right {
+  float: right;
+  margin-right: 70px;
+  margin-top: 25px;
+
+  }
+
+section span {
+    font-weight: 900;
+  }
+
+
+p {
+  color:#FE7E00;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+
+.buttons {
+
+  display: inline;
+  border: none;
+}
+
+
+.web {
+  margin-top: -92px;
+  margin-left: 100px;
+  font-size: 40px;
+  color:#FE7E00;
+  letter-spacing: 5px;
+}
+
+.web > span {
+
+  color: #7ACCC8;
+}
+
+/* Button Div*/
+
+
+
+.buttons button {
+  height: 50px;
+  width: 270px;
+  border: none;
+  position:fixed;
+}
+
+.bl {
+  height: 50px;
+  width: 100px;
+  float:left;
+  margin-left: 0px;
+}
+
+.br {
+  height: 50px;
+  width: 100px;
+  float:right;
+  margin-left: 30px;
+  margin-right: 220px;
+
+}
+
+
+.bl >button {
+  color: white;
+  background:#FE7E00;
+  width: 250px;
+}
+
+
+.br >button {
+
+  color: white;
+  background: #7ACCC8;
+  width: 250px;
+}
+
+
+button {
+  font-size: 17px;
+  font-family: 'Yantramanav', sans-serif;
+  position:fixed;
+}
+
+/*Footer*/
+
+footer {
+  height: 100%;
+  background:#7ACCC8;
+  font-size: 0px;
+}
+
+@media (max-width:1211px){
+
+  .sbox button {
+    margin-left: -146px;
+    margin-top: -2px;
+    text-decoration: none;
+    padding: -10px;
+    border: none;
+    background: transparent;
+    position: absolute;
+  }
+
+  p {
+    color:#FE7E00;
+    font-size: 30px;
+    letter-spacing: 5px;
+  }
+
+  .web {
+    margin-top: -70px;
+    margin-left: 90px;
+    font-size: 30px;
+    color:#FE7E00;
+    letter-spacing: 5px;
+  }
+
+  .bl >button {
+    color: white;
+    background:#FE7E00;
+    width: 200px;
+
+  }
+
+
+  .br >button {
+
+    color: white;
+    background: #7ACCC8;
+    width: 200px;
+    margin-left: 100px;
+  }
+
+}
+
+@media (max-width:1057px){
+  .right {
+    float: center;
+    margin-right: 70px;
+    margin-top: 25px;
+  }
+  li {
+    margin-top: 30px;
+    margin-right: 10px;
+    text-align: right;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 90%;
+    text-decoration: none;
+  }
+
+  top ul{
+    margin: 0px;
+    display: inline-block;
+    margin-right: -50px;
+  }
+
+  .sbox button {
+
+position: absolute;
+  }
+
+  p {
+    font-size: 25px;
+    letter-spacing: 5px;
+  }
+
+  .web {
+    margin-top: -92px;
+    margin-left: 100px;
+    font-size: 25px;
+    letter-spacing: 5px;
+  }
+
+  .right {
+    float: right;
+    margin-right: 0px;
+    margin-top: px;
+
+    }
+
+    .web {
+      margin-top: -57px;
+      margin-left: 77px;
+      font-size: 25px;
+      color:#FE7E00;
+      letter-spacing: 5px;
+    }
+
+    .bl {
+      height: 50px;
+      width: 50px;
+      float:left;
+      margin-left: 0px;
+    }
+
+    .br {
+      height: 50px;
+      width: 50px;
+      float:right;
+      margin-left: 30px;
+      margin-right: 220px;
+
+    }
+
+    .bl >button {
+      color: white;
+      background:#FE7E00;
+      width: 200px;
+    }
+
+
+    .br >button {
+
+      color: white;
+      background: #7ACCC8;
+      width: 200px;
+      margin-left: 50px;
+    }
+}
+
+
+
+@media (max-width:1024px){
+  .right {
+    float: center;
+    margin-right: 70px;
+    margin-top: 25px;
+  }
+  li {
+    margin-top: 30px;
+    margin-right: 10px;
+    text-align: right;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 90%;
+    text-decoration: none;
+  }
+
+  top ul{
+    margin: 0px;
+    display: inline-block;
+    margin-right: -50px;
+    font-weight: bold;
+  }
+
+  .sbox button {
+
+position: absolute;
+  }
+
+  p {
+    color:#FE7E00;
+    font-size: 25px;
+    letter-spacing: 5px;
+  }
+
+  .web {
+    margin-top: -92px;
+    margin-left: 100px;
+    font-size: 25px;
+    color:#FE7E00;
+    letter-spacing: 5px;
+  }
+
+  .right {
+    float: right;
+    margin-right: 0px;
+    margin-top: 25px;
+
+    }
+
+    .web {
+      margin-top: -57px;
+      margin-left: 77px;
+      font-size: 25px;
+      color:#FE7E00;
+      letter-spacing: 5px;
+    }
+
+    .bl {
+      height: 50px;
+      width: 50px;
+      float:left;
+      margin-left: 0px;
+    }
+
+    .br {
+      height: 50px;
+      width: 50px;
+      float:right;
+      margin-left: 30px;
+      margin-right: 220px;
+
+    }
+}
+
+
+
+
+
+
+@media (max-width:640px){
+
+  body {
+    height: 50px;
+    width: 100%;
+  }
+
+  .top {
+
+    background:#FE7E00;
+    height: 200px;
+    border-bottom: 10px solid #F17003;
+    text-align: auto;
+    color: white;
+  }
+
+  .top img {
+    height: 70px;
+    width: 75px;
+    margin-top: 10px;
+    margin-left: -290px;
+  }
+
+
+  .logo {
+    margin-top: 20px;
+    color: #fff;
+    float: left;
+    margin-left: 200px;
+    font-weight: 5;
+    font-size: 40px;
+  }
+
+   .logo > span {
+    font-weight: 900;
+  }
+
+  .top ul{
+  margin: 0px;
+  display: inline-block;
+  margin-right: 100px;
+  font-weight: bold;
+  }
+
+  ul {
+    float: right;
+    text-align: inherit;
+    margin:0px 0 0 50%;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+
+  li {
+    margin-top: 20px;
+    margin-right: -5px;
+    text-align: right;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  ul li a{
+    text-decoration: none;
+    color: white;
+  }
+
+  section {
+    background: white;
+    height: 780%;
+  }
+
+  .sbox ul li {
+  display: inline-block;
+  float: inherit;
+  }
+
+  input {
+height: 50px;
+width: 400px;
+float: inherit;
+margin-top: 50px;
+margin-right: 110px;
+
+
+}
+
+  .sbox button {
+margin-left: -116px;
+margin-top: -95px;
+position: absolute;
+}
+
+section > img {
+margin-right: 125px;
+margin-top: -30px;
+float: right;
+height: 350px;
+width: 350px;
+}
+
+.right {
+  float: right;
+  margin-right: 60px;
+  margin-top: 25px;
+
+  }
+
+section span {
+    font-weight: 900;
+  }
+
+
+p {
+  font-size: 25px;
+
+}
+
+
+.buttons button {
+  height: 50px;
+  width: 150px;
+  border: none;
+  position:relative;
+}
+
+.bl {
+  height: 50px;
+  width: 80px;
+  float:left;
+  margin-left: 50px;
+}
+
+.br {
+  height: 50px;
+  width: 100px;
+  float:left;
+  margin-left: 100px;
+  margin-right: 100px;
+
+
+}
+
+
+button {
+  font-size: 17px;
+  font-family: 'Yantramanav', sans-serif;
+  position:none;
+  margin-top: 25px;
+  margin-bottom: 100px;
+}
+
+footer {
+  margin-top: 400px;
+  height: 100px;
+
+}
+
+
+
+@media (max-width:400px) {
+
+  .top {
+
+    background:#FE7E00;
+    height: 350px;
+    border-bottom: 10px solid #F17003;
+    text-align: auto;
+    color: white;
+  }
+
+  .top img {
+    height: 75px;
+    width: 75px;
+    margin-top: 10px;
+    margin-left: -300px;
+  }
+
+
+  .logo {
+    margin-top: 20px;
+    color: #fff;
+    float: left;
+    margin-left: 130px;
+    font-weight: 5;
+    font-size: 40px;
+  }
+
+   .logo > span {
+    font-weight: 900;
+  }
+
+
+ul {
+  float: right;
+  text-align: inherit;
+  margin:0px 0 0 50%;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+li {
+  margin-top: 5px;
+  margin-right: 20px;
+  text-align: center;
+  display: block;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+section {
+  height: 780%;
+}
+
+.sbox ul li {
+display: inline-block;
+float: inherit;
+}
+
+input {
+height: 50px;
+width: 200px;
+float: inherit;
+margin-top: 80px;
+margin-right: 80px;
+
+
+}
+
+.sbox button {
+margin-left: -86px;
+margin-top: -84px;
+position: absolute;
+}
+
+section > img {
+margin-right: 20px;
+margin-top: -10px;
+float: right;
+height: 350px;
+width: 350px;
+}
+
+
+.right {
+  float: right;
+  margin-right: -50px;
+  margin-top: 25px;
+
+  }
+
+section span {
+    font-weight: 900;
+  }
+
+
+p {
+  font-size: 16px;
+  margin-right: 70px;
+
+}
+
+.web {
+  margin-top: -37px;
+  margin-left: 50px;
+  font-size: 16px;
+  color:#FE7E00;
+  letter-spacing: 5px;
+}
+
+
+
+.buttons button {
+  height: 50px;
+  width: 150px;
+  border: none;
+  position:relative;
+}
+
+.bl {
+  height: 50px;
+  width: 80px;
+  float:left;
+  margin-left: 10px;
+}
+
+.br {
+  height: 50px;
+  width: 100px;
+  float:;
+  margin-left: 100px;
+  margin-right: 100px;
+
+
+}
+
+
+button {
+  font-size: 17px;
+  font-family: 'Yantramanav', sans-serif;
+  position:none;
+  margin-top: 25px;
+  margin-bottom: 100px;
+}
+
 }
